@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FinishActivity"
+    android:background="@drawable/start_cover">
+
+    <TextView
+        android:id="@+id/textViewThank"
+        android:layout_width="244dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="308dp"
+        android:layout_marginEnd="84dp"
+        android:gravity="center"
+        android:text="我們已收到您的訂單 感謝您的訂購~"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttontoinit"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="106dp"
+        android:background="@drawable/capsule"
+        android:backgroundTint="#FFb733"
+        android:text="回首頁"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewThank" />
+</androidx.constraintlayout.widget.ConstraintLayout>
